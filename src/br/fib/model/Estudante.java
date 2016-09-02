@@ -2,28 +2,31 @@ package br.fib.model;
 
 public class Estudante {
 	
-	private Integer Id_Autor; 
-	private String Autor_nome;
-	private String Autor_cidade;
+	private Integer Id_estu; 
+	private String estu_nome;
+	private String estu_Curso;
 	
+	public Integer getId_estu() {
+		return Id_estu;
+	}
+	public void setId_estu(Integer id_estu) {
+		Id_estu = id_estu;
+	}
 	
-	public Integer getId_Autor() {
-		return this.Id_Autor;
+	public String getEstu_nome() {
+		return estu_nome;
 	}
-	public void setId_Autor(Integer id_Autor) {
-		this.Id_Autor = id_Autor;
+	public void setEstu_nome(String estu_nome) {
+		this.estu_nome = estu_nome;
 	}
-	public String getAutor_nome() {
-		return this.Autor_nome;
+	
+	public String getEstu_Curso() {
+		return estu_Curso;
 	}
-	public void setAutor_nome(String autor_nome) {
-		this.Autor_nome = autor_nome;
+	public void setEstu_Curso(String estu_Curso) {
+		this.estu_Curso = estu_Curso;
 	}
-	public String getAutor_cidade() {
-		return this.Autor_cidade;
-	}
-	public void setAutor_cidade(String autor_cidade) {
-		this.Autor_cidade = autor_cidade;
-	}
+
+	
 
 }

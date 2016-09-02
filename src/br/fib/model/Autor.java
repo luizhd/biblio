@@ -3,8 +3,8 @@ package br.fib.model;
 public class Autor {
 	
 	private Integer Id_Autor;
-	private String Estu_Nome;
-	private String Estu_Curso;
+	private String Autor_Nome;
+	private String Autor_Cidade;
 	
 	
 	public Integer getId_Autor() {
@@ -13,17 +13,17 @@ public class Autor {
 	public void setId_Autor(Integer id_Autor) {
 		this.Id_Autor = id_Autor;
 	}
-	public String getEstu_Nome() {
-		return this.Estu_Nome;
+	public String getAutor_Nome() {
+		return this.Autor_Nome;
 	}
-	public void setEstu_Nome(String estu_Nome) {
-		this.Estu_Nome = estu_Nome;
+	public void setAutor_Nome(String Autor_Nome) {
+		this.Autor_Nome = Autor_Nome;
 	}
-	public String getEstu_Curso() {
-		return this.Estu_Curso;
+	public String getAutor_Cidade() {
+		return this.Autor_Cidade;
 	}
-	public void setEstu_Curso(String estu_Curso) {
-		this.Estu_Curso = estu_Curso;
+	public void setAutor_Cidade(String Autor_Cidade) {
+		this.Autor_Cidade = Autor_Cidade;
 	}
 
 }

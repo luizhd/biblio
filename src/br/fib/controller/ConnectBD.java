@@ -28,3 +28,10 @@ public class ConnectBD {
 		connection.close();
 	}
 }
+
+/*
+ * para transformar um date (util) para sql eh : new
+ * java.sql.date(DataHoje.getTime()); e para transformar um date (sql) para util
+ * eh : new java.util.date(DataHoje.getTime());
+ * 
+ */
