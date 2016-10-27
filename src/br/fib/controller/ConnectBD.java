@@ -9,7 +9,7 @@ public class ConnectBD {
 
 		System.out.println("Conectando ao banco");
 		try {
-			return DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/", "sa", "");
+			return DriverManager.getConnection("jdbc:hsqldb:file:biblio", "sa", "");
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
