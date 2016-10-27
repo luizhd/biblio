@@ -11,7 +11,7 @@ public class Estudante {
 	}
 
 	public void setId_estu(Integer Id_estudante) {
-		Id_estudante = Id_estudante;
+		this.Id_estudante = Id_estudante;
 	}
 
 	public String getEstu_nome() {
