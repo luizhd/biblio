@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@page import="br.fib.controller.LivroDAO"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="br.fib.model.Livro"%>
@@ -10,7 +11,6 @@
 
 <%@page import="br.fib.controller.EstudanteDAO"%>
 <%@page import="br.fib.model.Estudante"%>
-
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
